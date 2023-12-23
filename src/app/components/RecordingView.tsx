@@ -19,7 +19,7 @@ export default function RecordingView() {
   const [transcript, setTranscript] = useState<string>();
 
   const [requiredWordSpoken, setRequiredWordSpoken] = useState<boolean>();
-  let requiredWord = "okay";
+  let requiredWord = "now";
 
   const recognitionRef = useRef<any>(null);
 
